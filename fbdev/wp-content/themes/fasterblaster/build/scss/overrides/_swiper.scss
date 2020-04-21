@@ -1,0 +1,44 @@
+.swiper-button-next,
+.swiper-button-prev {
+  background: url($path-to-icons + 'chevron-white.svg') center no-repeat;
+  background-size: 20px 32px;
+  position: absolute;
+  padding: 20px;
+  bottom: 25%;
+  height: 32px;
+  width: 20px;
+  z-index: 999;
+}
+
+.swiper-button-prev {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  z-index: 12;
+}
+
+.swiper-pagination-bullets {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet {
+  background: #fff;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+
+  &-active {
+    background: $brand-green;
+  }
+}

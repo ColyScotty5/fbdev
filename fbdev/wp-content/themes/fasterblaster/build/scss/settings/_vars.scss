@@ -1,0 +1,24 @@
+$max-width: 1920px;
+$inner-max-width: 1280px;
+
+// Bootstrap Breakpoint overrides
+$grid-breakpoints: (
+  xs: 360px,
+  sm: 640px,
+  md: 768px,
+  lg: 1280px,
+  xl: 1440px,
+  xxl: 1920px
+);
+
+// Paths
+$path-to-icons: "/wp-content/themes/fasterblaster/img/icons/";
+
+$transition-rate: 0.3s;
+
+// Fonts
+$main-font-stack: "Quando", Georgia, serif;
+
+// Colours
+$brand-green: #42b03c;
+$brand-copy: #242424;

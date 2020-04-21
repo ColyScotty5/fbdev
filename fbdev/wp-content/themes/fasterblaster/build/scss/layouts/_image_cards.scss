@@ -1,0 +1,27 @@
+.image-cards {
+  padding: 0 24px;
+
+  &__card {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: relative;
+
+    &:first-of-type {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__card-content {
+    background-image: linear-gradient(360deg, rgba(0,0,0,0.9) 6.2%, rgba(0,0,0,0) 100%);
+    padding: 40px 18px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    h3 {
+      color: #fff;
+      font-size: 2rem;
+    }
+  }
+}

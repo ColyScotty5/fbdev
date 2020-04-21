@@ -1,0 +1,27 @@
+@mixin respond-to-min($breakpoint) {
+  @if map-has-key($grid-breakpoints, $breakpoint) {
+    @media (min-width: #{map-get($grid-breakpoints, $breakpoint)}) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. " + "Please make sure it is defined in `$grid-breakpoints` map.";
+  }
+}
+
+@mixin respond-to-max($breakpoint) {
+  @if map-has-key($grid-breakpoints, $breakpoint) {
+    @media (max-width: #{map-get($grid-breakpoints, $breakpoint)}) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. " + "Please make sure it is defined in `$grid-breakpoints` map.";
+  }
+}
+
+@mixin transition($transition) {
+  transition: $transition;
+}

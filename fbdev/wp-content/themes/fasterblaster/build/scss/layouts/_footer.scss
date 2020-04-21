@@ -1,0 +1,63 @@
+.quote-callout {
+  * {
+    text-align: center;
+  }
+}
+
+.main-footer {
+  background-color: #000;
+
+  p {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &__footer-nav {
+    margin-bottom: 40px;
+
+    li {
+      text-align: center;
+
+      a {
+        display: block;
+        font-size: 1.8rem;
+        padding: 6px 10px;
+      }
+    }
+  }
+
+  &__contact-info {
+    .row {
+      flex-direction: column;
+      align-items: center;
+
+      &:last-of-type a {
+        flex-direction: column;
+        text-align: center;
+
+        span {
+          margin-bottom: 6px;
+        }
+      }
+    }
+
+    a {
+      display: flex;
+      font-size: 1.4rem;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+  }
+
+  &__copyright {
+    p {
+      font-size: 1.2rem;
+      margin-top: 30px;
+      text-align: center;
+    }
+  }
+}

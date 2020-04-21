@@ -1,0 +1,38 @@
+.content-round-image {
+  &__content {
+    * {
+      text-align: center;
+    }
+
+    .btn--row {
+      padding-top: 16px;
+      justify-content: center;
+    }
+  }
+
+  &__image {
+    display: none;
+  }
+}
+
+@include respond-to-min(lg) {
+  .content-round-image {
+    &__content {
+      * {
+        text-align: left;
+      }
+
+      .btn--row {
+        justify-content: flex-start;
+      }
+    }
+
+    &__image {
+      padding-top: 40px;
+
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+}

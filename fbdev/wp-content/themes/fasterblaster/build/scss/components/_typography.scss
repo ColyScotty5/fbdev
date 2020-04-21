@@ -1,0 +1,28 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.7;
+}
+
+body {
+  font-family: $main-font-stack;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 32px;
+}
+
+h1,
+.h1 {
+  font-size: 3rem;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+}
