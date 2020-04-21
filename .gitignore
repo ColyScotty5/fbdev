@@ -1,8 +1,10 @@
+**/.DS_Store
 sftp-config.json
 fasterblaster.sublime-project
 fasterblaster.sublime-workspace
 fbdev/wp-admin/
 fbdev/wp-content/plugins/
+**/node_modules/
 fbdev/wp-includes/
 fbdev/index.php
 fbdev/license.txt
